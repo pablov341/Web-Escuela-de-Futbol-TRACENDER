@@ -1,0 +1,23 @@
+@use "./variables";
+
+
+  
+  .h3-subtittle{
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .img-historia{
+    margin-top: 20px;
+  }
+  .div-proyecto-hijo-historia {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   border: solid 2px variables.$color-secondary;
+   padding: 15px;
+   margin: 15px;
+ text-align: center;
+   box-shadow: rgba(255, 251, 2, 0.966) 0px 5px 15px;
+     
+  }
+  

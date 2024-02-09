@@ -1,0 +1,28 @@
+ /* CSS- proyecto.hmtl*/
+
+ @use "./variables";
+
+.p-proyecto{
+    padding: 20px;
+   }
+   .iframe-proyecto{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;}
+   .sedes-tittle{
+    background-color:variables.$color-secondary;
+}
+  .h3-subtittle{
+    align-self: flex-start;
+  }
+    
+
+   
+   .mapa{
+    justify-content: center;
+    display: flex;
+    justify-content: space-around
+   }
+   
